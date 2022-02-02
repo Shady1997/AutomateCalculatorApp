@@ -71,10 +71,10 @@ public class CalculatorMainPage {
 	@AndroidFindBy(xpath = "//android.widget.Button[@index='2']")
 	public WebElement clear;
 	
-	@AndroidFindBy(xpath = "//android.widget.Button[@index='1']")
+	@AndroidFindBy(xpath = "//android.widget.TextView[@index='0']")
 	public WebElement result;
 	
-	@AndroidFindBy(xpath = "//android.widget.Button[@index='0']")
+	@AndroidFindBy(xpath = "//android.widget.TextView[@index='1']")
 	public WebElement tempResult;
 	
 	

@@ -13,6 +13,7 @@ public class ClassProperties extends Capabilities{
 	// declare class properties
     static AndroidDriver<AndroidElement> driver;
 	static CalculatorMainPage mainPage;
+	protected static String result=null;
 	FileInputStream readProperty;
 	JavascriptExecutor js;
 }

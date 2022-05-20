@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-27T12:01:54 EET" name="Suite" finished-at="2022-01-27T12:01:54 EET" duration-ms="24">
+  <suite started-at="2022-03-31T22:20:20 EET" name="Suite" finished-at="2022-03-31T22:20:59 EET" duration-ms="38932">
     <groups>
     </groups>
-    <test started-at="2022-01-27T12:01:54 EET" name="Test" finished-at="2022-01-27T12:01:54 EET" duration-ms="24">
+    <test started-at="2022-03-31T22:20:20 EET" name="Test" finished-at="2022-03-31T22:20:59 EET" duration-ms="38932">
+      <class name="main.Start">
+        <test-method is-config="true" signature="prepare()[pri:0, instance:main.Start@121314f7]" started-at="2022-03-31T22:20:20 EET" name="prepare" finished-at="2022-03-31T22:20:35 EET" duration-ms="15057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepare -->
+        <test-method signature="checkSummationOperation()[pri:1, instance:main.Start@121314f7]" started-at="2022-03-31T22:20:35 EET" name="checkSummationOperation" finished-at="2022-03-31T22:20:40 EET" duration-ms="5340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSummationOperation -->
+        <test-method signature="checkSubtractionOperation()[pri:2, instance:main.Start@121314f7]" started-at="2022-03-31T22:20:40 EET" name="checkSubtractionOperation" finished-at="2022-03-31T22:20:45 EET" duration-ms="4425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSubtractionOperation -->
+        <test-method signature="checkMultiblicationOperation()[pri:3, instance:main.Start@121314f7]" started-at="2022-03-31T22:20:45 EET" name="checkMultiblicationOperation" finished-at="2022-03-31T22:20:49 EET" duration-ms="4119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMultiblicationOperation -->
+        <test-method signature="checkDivisionOperation()[pri:4, instance:main.Start@121314f7]" started-at="2022-03-31T22:20:49 EET" name="checkDivisionOperation" finished-at="2022-03-31T22:20:54 EET" duration-ms="5412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDivisionOperation -->
+        <test-method signature="checkModulasOperation()[pri:5, instance:main.Start@121314f7]" started-at="2022-03-31T22:20:54 EET" name="checkModulasOperation" finished-at="2022-03-31T22:20:58 EET" duration-ms="4141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkModulasOperation -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:main.Start@121314f7]" started-at="2022-03-31T22:20:58 EET" name="TearDown" finished-at="2022-03-31T22:20:59 EET" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- main.Start -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

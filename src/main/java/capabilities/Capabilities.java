@@ -18,7 +18,7 @@ public class Capabilities {
 	public static AndroidDriver<AndroidElement> baseCapabilities(String appNAme) throws IOException {
 		// TODO Access properties file to read general properties
 		FileInputStream readProperty = new FileInputStream(
-				System.getProperty("user.dir") + "\\src\\main\\java\\properties\\generalProperties.properties");
+				System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\generalProperties.properties");
 		Properties prop = new Properties();
 		prop.load(readProperty);
 

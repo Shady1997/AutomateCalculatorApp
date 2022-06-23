@@ -2,40 +2,47 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-31T22:20:20 EET" name="Suite" finished-at="2022-03-31T22:20:59 EET" duration-ms="38932">
+  <suite started-at="2022-06-23T12:46:19 EET" name="Suite" finished-at="2022-06-23T12:46:53 EET" duration-ms="33756">
     <groups>
+      <group name="smoke">
+        <method signature="CheckMainOperations.checkDivisionOperation()[pri:4, instance:test_cases.CheckMainOperations@3f6f6701]" name="checkDivisionOperation" class="test_cases.CheckMainOperations"/>
+        <method signature="CheckMainOperations.checkModulasOperation()[pri:5, instance:test_cases.CheckMainOperations@3f6f6701]" name="checkModulasOperation" class="test_cases.CheckMainOperations"/>
+        <method signature="CheckMainOperations.checkMultiblicationOperation()[pri:3, instance:test_cases.CheckMainOperations@3f6f6701]" name="checkMultiblicationOperation" class="test_cases.CheckMainOperations"/>
+        <method signature="CheckMainOperations.checkSubtractionOperation()[pri:2, instance:test_cases.CheckMainOperations@3f6f6701]" name="checkSubtractionOperation" class="test_cases.CheckMainOperations"/>
+        <method signature="CheckMainOperations.checkSummationOperation()[pri:1, instance:test_cases.CheckMainOperations@3f6f6701]" name="checkSummationOperation" class="test_cases.CheckMainOperations"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2022-03-31T22:20:20 EET" name="Test" finished-at="2022-03-31T22:20:59 EET" duration-ms="38932">
-      <class name="main.Start">
-        <test-method is-config="true" signature="prepare()[pri:0, instance:main.Start@121314f7]" started-at="2022-03-31T22:20:20 EET" name="prepare" finished-at="2022-03-31T22:20:35 EET" duration-ms="15057" status="PASS">
+    <test started-at="2022-06-23T12:46:19 EET" name="Check Main Operations on Calculator Application" finished-at="2022-06-23T12:46:53 EET" duration-ms="33756">
+      <class name="test_cases.CheckMainOperations">
+        <test-method is-config="true" signature="prepare()[pri:0, instance:test_cases.CheckMainOperations@3f6f6701]" started-at="2022-06-23T12:46:19 EET" name="prepare" finished-at="2022-06-23T12:46:31 EET" duration-ms="11229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepare -->
-        <test-method signature="checkSummationOperation()[pri:1, instance:main.Start@121314f7]" started-at="2022-03-31T22:20:35 EET" name="checkSummationOperation" finished-at="2022-03-31T22:20:40 EET" duration-ms="5340" status="PASS">
+        <test-method signature="checkSummationOperation()[pri:1, instance:test_cases.CheckMainOperations@3f6f6701]" started-at="2022-06-23T12:46:31 EET" name="checkSummationOperation" description="checkSummationOperation on Calculator" finished-at="2022-06-23T12:46:35 EET" duration-ms="4007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSummationOperation -->
-        <test-method signature="checkSubtractionOperation()[pri:2, instance:main.Start@121314f7]" started-at="2022-03-31T22:20:40 EET" name="checkSubtractionOperation" finished-at="2022-03-31T22:20:45 EET" duration-ms="4425" status="PASS">
+        <test-method signature="checkSubtractionOperation()[pri:2, instance:test_cases.CheckMainOperations@3f6f6701]" started-at="2022-06-23T12:46:35 EET" name="checkSubtractionOperation" description="checkSubtractionOperation on Calculator" finished-at="2022-06-23T12:46:39 EET" duration-ms="4479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSubtractionOperation -->
-        <test-method signature="checkMultiblicationOperation()[pri:3, instance:main.Start@121314f7]" started-at="2022-03-31T22:20:45 EET" name="checkMultiblicationOperation" finished-at="2022-03-31T22:20:49 EET" duration-ms="4119" status="PASS">
+        <test-method signature="checkMultiblicationOperation()[pri:3, instance:test_cases.CheckMainOperations@3f6f6701]" started-at="2022-06-23T12:46:39 EET" name="checkMultiblicationOperation" description="checkMultiblicationOperation on Calculator" finished-at="2022-06-23T12:46:43 EET" duration-ms="4150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMultiblicationOperation -->
-        <test-method signature="checkDivisionOperation()[pri:4, instance:main.Start@121314f7]" started-at="2022-03-31T22:20:49 EET" name="checkDivisionOperation" finished-at="2022-03-31T22:20:54 EET" duration-ms="5412" status="PASS">
+        <test-method signature="checkDivisionOperation()[pri:4, instance:test_cases.CheckMainOperations@3f6f6701]" started-at="2022-06-23T12:46:43 EET" name="checkDivisionOperation" description="checkDivisionOperation on Calculator" finished-at="2022-06-23T12:46:49 EET" duration-ms="5441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDivisionOperation -->
-        <test-method signature="checkModulasOperation()[pri:5, instance:main.Start@121314f7]" started-at="2022-03-31T22:20:54 EET" name="checkModulasOperation" finished-at="2022-03-31T22:20:58 EET" duration-ms="4141" status="PASS">
+        <test-method signature="checkModulasOperation()[pri:5, instance:test_cases.CheckMainOperations@3f6f6701]" started-at="2022-06-23T12:46:49 EET" name="checkModulasOperation" description="checkModulasOperation on Calculator" finished-at="2022-06-23T12:46:53 EET" duration-ms="3932" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkModulasOperation -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:main.Start@121314f7]" started-at="2022-03-31T22:20:58 EET" name="TearDown" finished-at="2022-03-31T22:20:59 EET" duration-ms="356" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:test_cases.CheckMainOperations@3f6f6701]" started-at="2022-06-23T12:46:53 EET" name="TearDown" finished-at="2022-06-23T12:46:53 EET" duration-ms="449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- main.Start -->
-    </test> <!-- Test -->
+      </class> <!-- test_cases.CheckMainOperations -->
+    </test> <!-- Check Main Operations on Calculator Application -->
   </suite> <!-- Suite -->
 </testng-results>
